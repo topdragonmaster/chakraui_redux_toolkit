@@ -1,4 +1,4 @@
-export const movie_mocks = [
+export const MOVIE_DATA = [
   {
     tomatoes: {
       viewer: { rating: 2.7, numReviews: 64, meter: 18 },

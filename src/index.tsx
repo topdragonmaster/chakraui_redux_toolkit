@@ -7,12 +7,13 @@ import { Main } from './pages'
 import './index.css'
 
 import { ChakraProvider } from '@chakra-ui/react'
+import { theme } from './theme'
 import 'react-multi-carousel/lib/styles.css'
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <ChakraProvider>
+      <ChakraProvider theme={theme}>
         <Main />
       </ChakraProvider>
     </Provider>
