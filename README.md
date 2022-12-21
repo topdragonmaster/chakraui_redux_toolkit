@@ -1,15 +1,12 @@
-# Figment Explorer React App(Typescript)
+# React App(Typescript)
 
-This is the NEAR token explorer written by `smart-dev30`.
-All the UI components and containers are written by [styled-components](https://styled-components.com/) and includes generic [eslint](https://eslint.org/) and [prettier](https://prettier.io/) configurations.
+All the UI components and containers are written by [chakra ui](https://chakra-ui.com/) and includes generic [eslint](https://eslint.org/) and [prettier](https://prettier.io/) configurations.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Setup
   > yarn install
 
-## Screenshot
-![Screenshot](screenshot/figment-explorer.gif)
 
 ## Available Scripts
 
@@ -38,17 +35,15 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ```
 figment-explorer
 ├── components
-│   ├── common         # common Components
-│   ├── Button         # Button Component
-│   ├── ActionItem     # ActionItem component
+│   ├── Drawer         # Drawer Components
+│   ├── Header         # Header Component
+│   ├── LabelText      # LabelText component
 │   ├── ...            # etc...
 │   └── index.ts       # export all components in `components` folder level
 │
 ├── constants          # Define constant variables
-├── container          # This will contain all web pages
-│   ├── Explorer       # Transaction Explorer page(main page)
-│   └── index.ts       # export all containers in `containers` folder level
-├── hooks              # Define custom hooks here
+├── pages              # This will contain all web pages
+├── store              # Define redux store here
 └── types              # Define types and interfaces
 ```
 ## Learn More
